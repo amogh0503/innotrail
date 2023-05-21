@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.tb-item {
+    font-size: xx-large;
+    padding: 20px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.btn-float {
+    position: fixed;
+    font-size: x-large;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    top: 40%;
+    right: 5%;
+}
